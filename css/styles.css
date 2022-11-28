@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-h1 {
+.hero-text {
   padding-top: 15%;
   color: white;
   font-size: 4rem;
@@ -176,4 +176,17 @@ h1 {
 
 .r-discription {
   padding: 6px;
+}
+
+
+/* Media */
+
+@media (max-width: 454px) {
+  .hero-text {
+    font-size: 3rem;
+  }
+
+  .navbar-light .navbar-brand {
+    font-size: 1rem;
+  }
 }
