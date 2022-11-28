@@ -104,6 +104,7 @@
 
 .price p {
   margin-bottom: 0;
+  font-weight: 500;
 }
 
 .p-title {
@@ -187,6 +188,6 @@
   }
 
   .navbar-light .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
