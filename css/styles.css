@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&family=Ubuntu&display=swap');
 
 #title {
-  background-image: url("/hero.jpg");
+  background: url("../hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
