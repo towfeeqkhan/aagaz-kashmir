@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;900&family=Raleway:wght@700&family=Ubuntu&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -74,7 +74,7 @@ html {
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit,20rem);
-  gap: 30px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -102,17 +102,25 @@ html {
   top: 10px;
   background-color: #7EA22C;
   color: white;
-  padding: 10px 10px;
+  padding: 5px 5px;
 
 }
 
 .price p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.price span {
+  font-size: 13px;
 }
 
 .p-title {
   margin: 20px 0;
+  padding: 15px;
 }
 
 .p-discription {
